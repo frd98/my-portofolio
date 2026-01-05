@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Farid | Product Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold gradient-text italic">MF.</span>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded-full text-sm hover:bg-blue-700 transition">Get in Touch</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6 tracking-tight">MUHAMMAD <span class="gradient-text">FARID</span></h1>
+            <p class="text-xl md:text-2xl text-slate-600 mb-8 font-light">Product Manager | Digital Transformation Specialist</p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+                <span class="flex items-center text-slate-500"><i class="fa-solid fa-location-dot mr-2"></i> Tangerang, ID</span>
+                <a href="mailto:98.mfrd@gmail.com" class="flex items-center text-slate-500 hover:text-blue-600 transition"><i class="fa-solid fa-envelope mr-2"></i> 98.mfrd@gmail.com</a>
+                <a href="https://linkedin.com/in/muhammad-farid-730944169" target="_blank" class="flex items-center text-slate-500 hover:text-blue-600 transition"><i class="fa-brands fa-linkedin mr-2"></i> LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About / Summary -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-10 text-center">The Vision</h2>
+            <div class="p-8 bg-slate-50 rounded-3xl border border-slate-100 shadow-sm leading-relaxed text-slate-700">
+                <p class="mb-4">
+                    Product professional with 4+ years of experience in Indonesia's vibrant startup ecosystem. My career has evolved from growth and engagement at scale (Pinhome) to building digital infrastructure for global talent mobility (Better Tech).
+                </p>
+                <p>
+                    I specialize in bridging the gap between complex technical systems and human-centric experiences. My mission is to modernize traditional industries through digital transformation, making global education and services more accessible and transparent.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-20 px-4 bg-slate-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold mb-16 text-center">Work Experience</h2>
+            
+            <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+                
+                <!-- Better Tech -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-600 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-rocket text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm card-hover">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-bold text-lg">Product Manager</h3>
+                            <span class="text-xs font-semibold px-2 py-1 bg-blue-50 text-blue-600 rounded">May 2025 - Present</span>
+                        </div>
+                        <div class="text-blue-600 font-semibold mb-3">Better Tech (BetterOS)</div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc ml-4">
+                            <li>Leading digital infrastructure modernization for student mobility services.</li>
+                            <li>Empowering educational SMEs to digitize recruitment operations.</li>
+                            <li>Bridging the gap between manual processes and automated student mobility systems for national development.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Burn Fitness -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-dumbbell text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm card-hover">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-bold text-lg">Product Manager</h3>
+                            <span class="text-xs font-semibold px-2 py-1 bg-slate-100 text-slate-500 rounded">Nov 2024 - Feb 2025</span>
+                        </div>
+                        <div class="text-blue-600 font-semibold mb-3">Burn Fitness</div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc ml-4">
+                            <li>Optimized CRM systems for accurate data recording and operational efficiency.</li>
+                            <li>Led cross-team feature development and brainstorming sessions.</li>
+                            <li>Conducted team training to ensure full understanding of refined business processes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Fibr Corp -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-network-wired text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm card-hover">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-bold text-lg">Associate Product Manager</h3>
+                            <span class="text-xs font-semibold px-2 py-1 bg-slate-100 text-slate-500 rounded">Dec 2023 - Nov 2024</span>
+                        </div>
+                        <div class="text-blue-600 font-semibold mb-3">Fibr Corp</div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc ml-4">
+                            <li>Managed cross-functional Agile ceremonies (Stand-ups, Grooming, Sprints).</li>
+                            <li>Led the launch of AppFibr with a 1-month development-to-launch GTM cycle.</li>
+                            <li>Translated user research into detailed roadmaps and PRDs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pinhome -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-house text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm card-hover">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-bold text-lg">Associate Product Manager</h3>
+                            <span class="text-xs font-semibold px-2 py-1 bg-slate-100 text-slate-500 rounded">Dec 2021 - Oct 2023</span>
+                        </div>
+                        <div class="text-blue-600 font-semibold mb-3">Pinhome</div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc ml-4">
+                            <li>Led consumer app growth (acquisition & retention strategies).</li>
+                            <li>Revamped homepage discovery, increasing app store rating to 4.6/5.0.</li>
+                            <li>Implemented the transaction recording flow through deep stakeholder alignment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Tools -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Toolkit</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Tool Category -->
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center card-hover">
+                    <i class="fa-solid fa-diagram-project text-blue-500 text-2xl mb-3"></i>
+                    <h4 class="font-bold text-sm">Product Strategy</h4>
+                    <p class="text-xs text-slate-500 mt-2">PRDs, Roadmaps, GTM, Prioritization</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center card-hover">
+                    <i class="fa-solid fa-chart-line text-blue-500 text-2xl mb-3"></i>
+                    <h4 class="font-bold text-sm">Analytics</h4>
+                    <p class="text-xs text-slate-500 mt-2">Mixpanel, GA4, Clevertap, Appsflyer</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center card-hover">
+                    <i class="fa-solid fa-code text-blue-500 text-2xl mb-3"></i>
+                    <h4 class="font-bold text-sm">Agile Tools</h4>
+                    <p class="text-xs text-slate-500 mt-2">Jira, Github, SDLC, Retool</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 text-center card-hover">
+                    <i class="fa-solid fa-pen-nib text-blue-500 text-2xl mb-3"></i>
+                    <h4 class="font-bold text-sm">Design</h4>
+                    <p class="text-xs text-slate-500 mt-2">Figma, Miro, Canva, Lark</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="py-20 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-white">Education & Certifications</h2>
+            <div class="space-y-8">
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-blue-600 rounded">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Bachelor of Economics (Sharia)</h4>
+                        <p class="text-slate-400 text-sm">IPB University | 2016 - 2020</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-slate-700 rounded">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Product Management Bootcamp</h4>
+                        <p class="text-slate-400 text-sm">Binar Academy | 2021</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="p-2 bg-slate-700 rounded">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Quality Assurance Bootcamp</h4>
+                        <p class="text-slate-400 text-sm">Binar Academy | 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-12 bg-white border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-6 italic gradient-text">Ready to lead the next digital transformation.</h2>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="mailto:98.mfrd@gmail.com" class="text-slate-500 hover:text-blue-600 transition text-2xl"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/muhammad-farid-730944169" class="text-slate-500 hover:text-blue-600 transition text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p class="text-slate-400 text-xs uppercase tracking-widest">&copy; 2026 Muhammad Farid</p>
+        </div>
+    </footer>
+
+</body>
+</html>
